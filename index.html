@@ -12,7 +12,9 @@
   </head>
   <body>
     <header class="site-header" aria-label="Primary navigation">
-      <a class="brand" href="#top" aria-label="áaclub home">áaclub</a>
+      <a class="brand brand--image" href="#top" aria-label="áaclub home">
+        <img src="logo.jpeg" alt="áaclub logo" />
+      </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
         <span></span>
         <span></span>
@@ -24,7 +26,7 @@
         <a href="#space">Space</a>
         <a href="#location">Location</a>
         <a href="#gallery">Gallery</a>
-        <a class="nav-pill" href="https://www.instagram.com/asaf.club/">Instagram</a>
+        <a class="nav-pill" href="#footer">Instagram</a>
       </nav>
     </header>
 
@@ -68,79 +70,9 @@
           <span aria-hidden="true">⌁</span>
         </div>
 
-        <div class="drink-grid">
-          <article class="drink-card">
-            <div class="poster-star" aria-hidden="true">☆</div>
-            <h3>Strawberry<br />Matcha<br />Latte</h3>
-            <div class="drink-card__content">
-              <ul aria-label="Flavor notes">
-                <li>sweet</li>
-                <li>berry</li>
-                <li>bright</li>
-              </ul>
-              <div class="cup cup--strawberry" aria-hidden="true">
-                <span class="ice ice--one"></span>
-                <span class="ice ice--two"></span>
-              </div>
-            </div>
-            <span class="tiny-scribble" aria-hidden="true"></span>
-            <span class="mini-mark" aria-hidden="true"></span>
-          </article>
-
-          <article class="drink-card">
-            <div class="poster-star" aria-hidden="true">☆</div>
-            <h3>Pink Cloud<br />Matcha<br />Latte</h3>
-            <div class="drink-card__content">
-              <ul aria-label="Flavor notes">
-                <li>creamy</li>
-                <li>fluffy</li>
-                <li>dreamy</li>
-              </ul>
-              <div class="cup cup--pink-cloud" aria-hidden="true">
-                <span class="ice ice--one"></span>
-                <span class="ice ice--two"></span>
-              </div>
-            </div>
-            <span class="tiny-scribble" aria-hidden="true"></span>
-            <span class="mini-mark mini-mark--flip" aria-hidden="true"></span>
-          </article>
-
-          <article class="drink-card">
-            <div class="poster-star" aria-hidden="true">☆</div>
-            <h3>Classic<br />Matcha<br />Latte</h3>
-            <div class="drink-card__content">
-              <ul aria-label="Flavor notes">
-                <li>smooth</li>
-                <li>earthy</li>
-                <li>balanced</li>
-              </ul>
-              <div class="cup cup--classic" aria-hidden="true">
-                <span class="ice ice--one"></span>
-                <span class="ice ice--two"></span>
-              </div>
-            </div>
-            <span class="tiny-scribble" aria-hidden="true"></span>
-            <span class="mini-mark" aria-hidden="true"></span>
-          </article>
-
-          <article class="drink-card">
-            <div class="poster-star" aria-hidden="true">☆</div>
-            <h3>Coffee<br />Latte</h3>
-            <div class="drink-card__content">
-              <ul aria-label="Flavor notes">
-                <li>rich</li>
-                <li>creamy</li>
-                <li>comfort</li>
-              </ul>
-              <div class="cup cup--coffee" aria-hidden="true">
-                <span class="ice ice--one"></span>
-                <span class="ice ice--two"></span>
-              </div>
-            </div>
-            <span class="tiny-scribble" aria-hidden="true"></span>
-            <span class="mini-mark" aria-hidden="true"></span>
-          </article>
-        </div>
+        <figure class="menu-showcase">
+          <img src="menu.png" alt="áaclub signature drinks menu poster" />
+        </figure>
       </section>
 
       <section class="about section" aria-labelledby="about-title">
@@ -152,10 +84,13 @@
             to focus, reset, or catch up with someone — you’re in the right place.
           </p>
         </div>
-        <div class="about__beans" aria-hidden="true">
-          <span class="bean bean--black bean--small"></span>
-          <span class="bean bean--black bean--medium"></span>
-          <span class="bean bean--black bean--tiny"></span>
+        <div class="about__media">
+          <figure class="about-photo about-photo--wide">
+            <img src="media/space/space3.webp" alt="áaclub seating area with warm lighting and plants" />
+          </figure>
+          <figure class="about-photo about-photo--small">
+            <img src="media/space/space2.webp" alt="áaclub table by a textured wall with coffee and a laptop" />
+          </figure>
         </div>
       </section>
 
@@ -183,7 +118,7 @@
           href="https://maps.app.goo.gl/XVi5WstmnL5qRomr8"
           target="_blank"
           rel="noreferrer"
-        > 
+        >
           <svg viewBox="0 0 24 24" aria-hidden="true">
             <path d="M12 21s7-5.2 7-12a7 7 0 0 0-14 0c0 6.8 7 12 7 12Z" />
             <circle cx="12" cy="9" r="2.2" />
@@ -196,30 +131,21 @@
       <section class="gallery section" id="gallery" aria-labelledby="gallery-title">
         <h2 id="gallery-title">Gallery</h2>
         <div class="gallery-grid">
-          <article class="gallery-tile gallery-tile--poster">
-            <p>Good days<br />good drinks<br />good space</p>
-            <span aria-hidden="true">áaclub</span>
-          </article>
-          <article class="gallery-tile gallery-tile--photo">
-            <img src="location.png" alt="Inside view of áaclub storefront seating" />
-          </article>
-          <article class="gallery-tile gallery-tile--drink">
-            <div class="cup cup--classic" aria-hidden="true"></div>
-          </article>
-          <article class="gallery-tile gallery-tile--room" aria-label="Café space graphic">
-            <span class="room-window" aria-hidden="true"></span>
-            <span class="room-table" aria-hidden="true"></span>
-            <span class="room-chair room-chair--one" aria-hidden="true"></span>
-            <span class="room-chair room-chair--two" aria-hidden="true"></span>
-          </article>
-          <article class="gallery-tile gallery-tile--pink">
-            <p>Slow down<br />good drink<br />good day</p>
-            <span class="mini-mark" aria-hidden="true"></span>
-          </article>
-          <article class="gallery-tile gallery-tile--brand">
-            <p>á à cl</p>
-            <span>Coffee | Matcha | Space</span>
-          </article>
+          <figure class="gallery-tile gallery-tile--wide">
+            <img src="media/space/space3.webp" alt="áaclub lounge seating with a long table and soft lamp light" />
+          </figure>
+          <figure class="gallery-tile">
+            <img src="media/space/space2.webp" alt="áaclub corner table with coffee, laptop, and wooden chairs" />
+          </figure>
+          <figure class="gallery-tile gallery-tile--tall">
+            <img src="location.png" alt="áaclub storefront on Sư Vạn Hạnh" />
+          </figure>
+          <figure class="gallery-tile">
+            <img src="media/space/space1.webp" alt="áaclub interior steps with warm table lamps and floor seating" />
+          </figure>
+          <figure class="gallery-tile">
+            <img src="media/space/space4.webp" alt="áaclub bar area with paper lanterns and coffee counter" />
+          </figure>
         </div>
       </section>
     </main>
@@ -235,9 +161,30 @@
         TP.HCM, Vietnam
       </address>
       <nav aria-label="Social links">
-        <a href="https://www.instagram.com/asaf.club/" aria-label="Instagram">IG</a>
-        <a href="#" aria-label="TikTok">TT</a>
-        <a href="#location" aria-label="Location">MAP</a>
+        <a href="#" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="5" />
+            <circle cx="12" cy="12" r="4" />
+            <circle cx="17.5" cy="6.5" r="1" />
+          </svg>
+        </a>
+        <a href="#" aria-label="TikTok">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M14 3v10.4a4.6 4.6 0 1 1-4.6-4.6c.5 0 1 .1 1.4.2v3.4a1.8 1.8 0 1 0 1.2 1.7V3h2Z" />
+            <path d="M14 3c.6 3 2.4 4.8 5.2 5.2v3.2c-2.1-.1-3.8-.8-5.2-2.1" />
+          </svg>
+        </a>
+        <a
+          href="https://maps.app.goo.gl/XVi5WstmnL5qRomr8"
+          aria-label="Location"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 21s7-5.2 7-12a7 7 0 0 0-14 0c0 6.8 7 12 7 12Z" />
+            <circle cx="12" cy="9" r="2.2" />
+          </svg>
+        </a>
       </nav>
       <span class="footer-bean" aria-hidden="true"></span>
     </footer>
