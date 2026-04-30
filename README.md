@@ -1,2 +1,2 @@
 # asaf.club
-Coffe Shop Landing Page
+Coffee Shop Landing Page
